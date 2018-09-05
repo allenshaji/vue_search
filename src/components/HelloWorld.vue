@@ -49,7 +49,6 @@ export default {
        return this.customers.filter(function(cust){
          return cust.name.toLowerCase().indexOf(self.search.toLowerCase())>=0 || cust.type.toLowerCase().indexOf(self.search.toLowerCase())>=0 || cust.email.toLowerCase().indexOf(self.search.toLowerCase())>=0 || cust.id.indexOf(self.search)>=0;
          });
-       //return this.customers;
     }
 }
 }
